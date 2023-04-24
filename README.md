@@ -11,3 +11,4 @@ Documents the process of a development workflow. This is just a general/initial 
 * Code
   - [Style automation](docs/code-style-automation.md)
   - [Quality automation](docs/code-quality-automation.md)
+  - [Code reviews](docs/code-reviews.md)
