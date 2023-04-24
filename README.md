@@ -1,6 +1,8 @@
 # Introduction
 
-Documents the process of a development workflow. This is just a general/initial workflow which can be used as a base in a new team/organization. Each team/organization workflow is different and there is no one-size-fits-all.
+* Documents a development workflow
+* A general initial workflow which can be used as a base in a new team/organization
+* Each team/organization workflow is different and there is no one-size-fits-all
 
 # Contents
 
@@ -13,3 +15,6 @@ Documents the process of a development workflow. This is just a general/initial 
   - [Quality automation](docs/code-quality-automation.md)
   - [Code reviews](docs/code-reviews.md)
   - [C# conventions](docs/code-csharp-conventions.md)
+* Engineering
+  - [System design](docs/engineering-system-design.md)
+  - [Internal design](docs/engineering-internal-design.md)
