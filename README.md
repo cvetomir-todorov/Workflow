@@ -10,3 +10,4 @@ Documents the process of a development workflow. This is just a general/initial 
   - [Git workflow](docs/foundation-git-workflow.md)
 * Code
   - [Style automation](docs/code-style-automation.md)
+  - [Quality automation](docs/code-quality-automation.md)
