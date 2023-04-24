@@ -7,3 +7,4 @@ Documents the process of a development workflow. This is just a general/initial 
 * Foundation
   - [Naming](docs/foundation-naming.md)
   - [Repo layout](docs/foundation-repo-layout.md)
+  - [Git workflow](docs/foundation-git-workflow.md)
