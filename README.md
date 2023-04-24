@@ -12,3 +12,4 @@ Documents the process of a development workflow. This is just a general/initial 
   - [Style automation](docs/code-style-automation.md)
   - [Quality automation](docs/code-quality-automation.md)
   - [Code reviews](docs/code-reviews.md)
+  - [C# conventions](docs/code-csharp-conventions.md)
