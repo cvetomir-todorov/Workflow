@@ -1,8 +1,8 @@
 # Introduction
 
 * Documents a development workflow
-* A general initial workflow which can be used as a base in a new team/organization
-* Each team/organization workflow is different and there is no one-size-fits-all
+* This is just a general initial workflow focused on .NET development with a number of general technologies/concepts included as well
+* Since each team/organization workflow is different and there is no one-size-fits-all, this can be used as a base/skeleton and adjusted/populated to your specific needs
 
 # Contents
 
@@ -18,3 +18,4 @@
 * Engineering
   - [System design](docs/engineering-system-design.md)
   - [Internal design](docs/engineering-internal-design.md)
+  - [Automated testing](docs/engineering-automated-testing.md)
