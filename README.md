@@ -26,3 +26,4 @@
   - [CICD pipeline](docs/devops-cicd.md)
 * Practices
   - [Code reviews](docs/practices-code-reviews.md)
+  - [Continuous improvement](docs/practices-continuous-improvement.md)
