@@ -21,5 +21,7 @@
   - [Automated testing](docs/engineering-automated-testing.md)
 * Observability
   - [Health](docs/observability-health.md)
+* Devops
+  - [Versioning](docs/devops-versioning.md)
 * Practices
   - [Code reviews](docs/practices-code-reviews.md)
