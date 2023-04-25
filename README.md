@@ -21,3 +21,4 @@
   - [Automated testing](docs/engineering-automated-testing.md)
 * Craftsmanship
   - [.NET libraries](docs/craftsmanship-dotnet-libraries.md)
+  - [Observability - health](docs/craftsmanship-observability-health.md)
