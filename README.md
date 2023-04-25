@@ -23,5 +23,6 @@
   - [Health](docs/observability-health.md)
 * Devops
   - [Versioning](docs/devops-versioning.md)
+  - [CICD pipeline](docs/devops-cicd.md)
 * Practices
   - [Code reviews](docs/practices-code-reviews.md)
