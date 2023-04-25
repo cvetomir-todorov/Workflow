@@ -13,12 +13,13 @@
 * Code
   - [Style automation](docs/code-style-automation.md)
   - [Quality automation](docs/code-quality-automation.md)
-  - [Code reviews](docs/code-reviews.md)
   - [C# conventions](docs/code-csharp-conventions.md)
+  - [.NET libraries](docs/code-dotnet-libraries.md)
 * Engineering
   - [System design](docs/engineering-system-design.md)
   - [Internal design](docs/engineering-internal-design.md)
   - [Automated testing](docs/engineering-automated-testing.md)
-* Craftsmanship
-  - [.NET libraries](docs/craftsmanship-dotnet-libraries.md)
-  - [Observability - health](docs/craftsmanship-observability-health.md)
+* Observability
+  - [Health](docs/observability-health.md)
+* Practices
+  - [Code reviews](docs/practices-code-reviews.md)
