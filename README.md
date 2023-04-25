@@ -19,3 +19,5 @@
   - [System design](docs/engineering-system-design.md)
   - [Internal design](docs/engineering-internal-design.md)
   - [Automated testing](docs/engineering-automated-testing.md)
+* Craftsmanship
+  - [.NET libraries](docs/craftsmanship-dotnet-libraries.md)
