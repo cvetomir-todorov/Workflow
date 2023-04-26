@@ -24,6 +24,7 @@ source/
   cecochat-all.sln
   cecochat-messaging.sln
   cecochat-history-consumer.sln
+  version.props
 .gitignore
 CHANGELOG
 LICENSE

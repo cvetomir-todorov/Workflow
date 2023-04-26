@@ -1,9 +1,9 @@
 # Introduction
 
 * Consistent code style
-  - Reduces [ambiguity, complexity]
-  - Increases [readability, productivity] 
-  - Is an important to team work
+  - Reduces ambiguity, complexity
+  - Increases readability, productivity 
+  - Is important to team work
 * Code style needs to be verified
   - During development via IDE tools
   - During the CICD pipelines via CLI tools

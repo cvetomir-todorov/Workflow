@@ -1,6 +1,6 @@
 # Introduction
 
-* Meaning
+* Essence
   - When the health checks are implemented properly
   - When k8s probes are configured properly
   - Then components would be more resilient
@@ -14,7 +14,8 @@
 
 * Mandatory
 * Executed manually
-* Provides detailed data
+  - When troubleshooting
+* Provides very detailed data
   - Service data
   - Dependencies data
 
@@ -22,6 +23,7 @@
 
 * Optional
 * Executed by k8s when the component is started via a `startupProbe`
+* Provides `Success`/`Failure` result
 * Indicates whether container has initialized
   - Used when the container is starting slowly for some good reason
   - Example: component needs to load a lot of data into memory from a slow data source in order to properly function
@@ -32,6 +34,7 @@
 * Executed by k8s regularly via a `livenessProbe`
   - Started after the `startupProbe` has succeeded, if there was any
   - Independent from the `readinessProbe` success/failure
+* Provides `Success`/`Failure` result
 * Indicates whether the container is alive
 * If probe fails container is restarted
 * Implementation
@@ -48,22 +51,23 @@
 * Executed by k8s regularly via `readinessProbe`
   - Started after the `startupProbe` has succeeded, if there was any
   - Independent from the `livenessProbe` success/failure
+* Provides `Success`/`Failure` result
 * Indicates whether container is ready to accept traffic
 * If probe fails container is removed from the load balancer
 * Implementation - should include checking dependencies availability
     - All dependencies should be checked simultaneously
     - For a URL - send HTTP `HEAD` request
-    - For a DB - query `SELECT 1`
-    - Internal service - call `/readyz`
+    - For a DB - query `SELECT 1` or similar alternative
+    - For an internal service - call `/readyz`
 * Shared dependency
     - One that is used by all pods in the deployment
     - Could break all pods in the deployment
     - Requires timeout > max response timeout for the dependency
     - May need to increase `failureThreshold` count
-* Dependency not available
+* When a dependency is not available
     - The component could return data from cache for `GET` requests
-    - The component fails for `PUT`/`POST` requests
-    - Response indicating degradation could be better than failure in some cases
+    - The component should fail for `PUT`/`POST` requests
+    - Consider response indicating degradation, rather than failure
 
 # Resources
 

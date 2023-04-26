@@ -2,7 +2,7 @@
 
 * Good code quality is foundational for
   - Engineering productivity
-  - Better planning
+  - More accurate estimation
   - Team morale
 * Code quality should be verified
   - During development via IDE tools

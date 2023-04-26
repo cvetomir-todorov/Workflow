@@ -31,8 +31,8 @@ Code reviews should verify the following for each PR:
     - Reduces chances that author interprets the comment as an attack on how good engineer he/she is
   - Consider having a call or discuss in person
     - Differences of opinion could be because of ambiguity and/or misunderstanding
-    - Communicating while seeing the other person can be a reminder of the humanitarian side of the engineering
-  - Bring someone else, if it's only the author and 1 reviewer arguing
+    - Communicating while seeing the other person could remind of the humanitarian side of the engineering
+  - Bring someone else, if it's only the author and reviewer arguing
     - Outside perspective could help see missed opportunities for resolution
 
 # Nit-picking
@@ -42,6 +42,9 @@ Nit-picking should not be avoided but rather **encouraged** and everyone should 
 * We should nit-pick to improve code which in turn would improve the end result
 * We should nit-pick without fear of having an argument or hurting author's feelings
 * Large number of nit-picking comments should not be interpreted by the author as producing low quality code
-* To point out that a comment is a nit-pick just prefix it with `Nit: `
-* This way the PR author would know this comment isn't something serious
+
+How to nit-pick
+
+* Just prefix the comment with `Nit: `
+* The PR author would immediately know it's a nit-pick
 * Example: `Nit: use == instead of patterns`

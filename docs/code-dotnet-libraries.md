@@ -2,28 +2,31 @@
 
 * Using consolidated set of libraries makes codebase consistent and knowledge of the team concentrated
 * Sometimes it makes sense to use 2 different libraries for the same thing
-  - Example: EF could be the default choice for working with SQL DB, combined with ADO.NET for specific use cases
+  - Example: EF could be the default choice for working with SQL database, combined with ADO.NET for specific use cases
 
-[Autofac](https://autofac.org/) - the most popular DI container
+# Dependency injection
 
-[Serilog](https://serilog.net/)
+* [Autofac](https://autofac.org/) - the most popular DI container, suitable when the built-in .NET DI container is not enough
 
-[NLog](https://github.com/NLog/NLog)
+# Logging
 
-[NUnit](https://nunit.org/) - has better documentation than xUnit
+* [Serilog](https://serilog.net/) - the most popular
+* [NLog](https://github.com/NLog/NLog) - second most popular
 
-[FluentAssertions](https://fluentassertions.com/) - most widely used assertion library
+# Automated testing
 
-[OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification)
+* [NUnit](https://nunit.org/) - has better documentation than xUnit
+* [FluentAssertions](https://fluentassertions.com/) - most widely used assertion library
 
-[OpenTelemetry .NET](https://github.com/open-telemetry/opentelemetry-dotnet)
+# Observability
 
-[OpenTelemetry .NET contrib](https://github.com/open-telemetry/opentelemetry-dotnet-contrib)
+* [OpenTelemetry specification](https://github.com/open-telemetry/opentelemetry-specification) - the specification for OpenTelemetry, useful when making custom instrumentation
+* [OpenTelemetry .NET](https://github.com/open-telemetry/opentelemetry-dotnet) - the main .NET technologies
+* [OpenTelemetry .NET contrib](https://github.com/open-telemetry/opentelemetry-dotnet-contrib) - .NET technologies contributed by the community
+* [Health checks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks) - a very extensive list of health checks ready to be used
 
-[Health checks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks) - a very extensive list
+# Other
 
-[FluentValidation](https://docs.fluentvalidation.net/) - more extensible than DataAnnotations
-
-[Fody](https://github.com/Fody/Fody) - weaver for .NET assemblies
-
-[IdGen](https://github.com/RobThree/IdGen) - Snowflake ID generator
+* [FluentValidation](https://docs.fluentvalidation.net/) - more extensible than DataAnnotations
+* [IdGen](https://github.com/RobThree/IdGen) - Snowflake ID generator
+* [Fody](https://github.com/Fody/Fody) - weaver for .NET assemblies

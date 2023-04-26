@@ -39,7 +39,7 @@ Decisions:
   - Make commits more self-contained
   - Only temp branches should be rebased by engineers and force-pushed-to
   - If more than 1 engineer works on a temp branch and one wants to force-push then they should coordinate
-* It is not known if it's safe to checkout a specific commit
+* Unfortunately with rebase it is not known if it's safe to checkout a specific commit in a permanent branch
   - Code may be in an intermediate state and not stable
   - Commits which are tagged should be checked out
 
@@ -49,6 +49,7 @@ Decisions:
 * Use **imperative** form (without -ed or -ing)
 * Use `Upper Case` (not `lower case`)
 * Focus on what the commit does
+* For commits with details use 1 line intro ending in `:`, a blank line, and then a `*`-led list 
 
 ### 1 line commit:
 
@@ -57,8 +58,6 @@ Add a new feature for reacting to chat messages
 ```
 
 ### Multi-line commit:
-
-Use 1 line intro ending in `:` and a `*`-led list with a blank line between the main description:
 
 ```text
 Add a new feature for reacting to chat messages:
@@ -70,8 +69,8 @@ Add a new feature for reacting to chat messages:
 
 # PR requirements
 
-* Prerequisites
-  - Good description with links in order to help the reviewers
+* Mandatory
+  - Good description (maybe with links) in order to help the reviewers
   - Successful CICD pipeline
 * Changes
   - Update `CHANGELOG` when the PR changes reflect the end result
@@ -81,5 +80,5 @@ Add a new feature for reacting to chat messages:
   - PR creator is the Assignee
   - PR creator should check how its PR looks before assigning reviewers
   - At least 1 reviewer (who is another person!) should approve the PR
-  - At least 1 owner should approve the PR
+  - At least 1 code owner (who is another person!) should approve the PR
   - Possible exceptions: team size is small, there's no one available due to holidays/etc, there's an urgent need to merge changes

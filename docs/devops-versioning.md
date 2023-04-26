@@ -69,7 +69,7 @@ Various formats exist, more or less complex, automated or not
 <details><summary>Example for MSBuild</summary>
 
 `version.props` file:
-```msbuild
+```xml
 <Project>
 
 <PropertyGroup>
@@ -82,7 +82,7 @@ Various formats exist, more or less complex, automated or not
 ```
 
 Project file for a versioned component:
-```msbuild
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="../version.props" />
